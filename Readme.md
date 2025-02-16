@@ -17,9 +17,13 @@ npm run watch
 
 ### Build the Application 
 
-> The application has installed the library through file path "../testLibrary/dist/my-test-library
-> An entry for myTestLibrary is in the application tsconfig.json file to ensure mapping is correct 
-> Run this while the library is also watching
+>Notes 
+>
+> 1. The application has installed the library through file path "../testLibrary/dist/my-test-library
+> 
+> 2. An entry for myTestLibrary is in the application tsconfig.json file to ensure mapping is correct 
+> 
+> 3. Run this while the library is also watching
 
 ```bash 
 cd testApplication 
