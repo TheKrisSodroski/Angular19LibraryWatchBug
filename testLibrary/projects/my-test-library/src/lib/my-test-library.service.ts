@@ -10,10 +10,13 @@ export class MyTestLibraryService {
 
   async init()
   {
-//    debugger;
+    //Uncomment these comments sequentially to notice the bug
+    //debugger;
     return new Promise((resolve, reject) => {
+      
       //debugger;
       console.log("in init");
+      //console.log("in init2");
       resolve(true);
     })
   }

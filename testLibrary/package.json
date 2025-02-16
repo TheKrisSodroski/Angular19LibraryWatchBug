@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm i && cd projects/my-test-library/ && npm i && cd ../../ && ng build myTestLibrary",
     "watch": "ng build myTestLibrary --watch",
     "test": "ng test"
   },
